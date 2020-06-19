@@ -1,0 +1,34 @@
+{
+  "name": "ednevnik",
+  "version": "1.0.0",
+  "description": "eDnevnik Api (Unofficial)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "qugust",
+  "scripts": {
+    "build": "tsc",
+    "docts": "docts"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "git+https://github.com/qugust/ednevnik.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qugust/ednevnik/issues"
+  },
+  "homepage": "https://github.com/qugust/ednevnik#readme",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.18",
+    "@types/tough-cookie": "^4.0.0",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
+    "eslint": "^7.2.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^11.3.0",
+    "tough-cookie": "^4.0.0"
+  }
+}
